@@ -1,8 +1,8 @@
 module.exports = {
   images: {
-    domains: ['localhost'],
+    domains: ['localhost', 'headless-cms-back.herokuapp.com'],
   },
   typescript: {
-    tsconfigPath: "./tsconfig.json"
-  }
-}
+    tsconfigPath: './tsconfig.json',
+  },
+};
